@@ -1,4 +1,4 @@
-alert("Open Console to view random numbers assigned to crystals.");
+// alert("Open Console to view random numbers assigned to crystals.");
 
 var counter = 0;
 var wins = 0;
@@ -35,6 +35,7 @@ $("#losses").text(losses);
 function resetScore() {
     counter = 0;
     score = 0;
+    $("#score").text(score);
     increment1 = blueCrystal[Math.floor(Math.random() * blueCrystal.length)];
     increment2 = pinkCrystal[Math.floor(Math.random() * pinkCrystal.length)];
     increment3 = greenCrystal[Math.floor(Math.random() * greenCrystal.length)];
