@@ -1,0 +1,28 @@
+body {
+    background-image: url(/assets/images/background.jpg);
+}
+
+.jumbotron {
+    background-image: url(/assets/images/background.jpg);
+}
+
+.container {
+    color: white;
+    text-align: center;
+    background-color: rgb(5, 119, 119);
+    border: 3px solid rgb(1, 71, 71);
+}
+
+.bodyText {
+    color: white;
+    text-align: left;
+    background-color: rgb(5, 119, 119);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid rgb(1, 71, 71);
+}
