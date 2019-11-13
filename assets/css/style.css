@@ -1,9 +1,9 @@
 body {
-    background-image: url(/assets/images/background.jpg);
+    background-image: url("../images/background.jpg");
 }
 
 .jumbotron {
-    background-image: url(/assets/images/background.jpg);
+    background-image: url("../images/background.jpg");
 }
 
 .container {
